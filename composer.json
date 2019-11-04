@@ -1,0 +1,47 @@
+{
+  "name": "edwin404/laravel-common",
+  "description": "Quick development",
+  "keywords": [
+    "Quick development"
+  ],
+  "homepage": "https://github.com/edwin404/laravel-common",
+  "license": "MIT",
+  "version": "dev-master",
+  "authors": [
+    {
+      "name": "edwin",
+      "email": "edwin404@163.com",
+      "homepage": "http://edwin404.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/framework": "5.1.*",
+    "edwin404/laravel-base": "*",
+    "intervention/image": "^2.3",
+    "guzzlehttp/guzzle": "~6.0",
+    "latrell/alipay": "^1.2",
+    "jenssegers/agent": "^2.3",
+    "barryvdh/laravel-debugbar": "^2.3",
+    "overtrue/wechat": "*",
+    "mews/captcha": "^2.1",
+    "doctrine/dbal": "^2.5",
+    "maatwebsite/excel": "~2.1.10"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "autoload": {
+    "psr-4": {
+      "Edwin404\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+    ],
+    "psr-4": {
+    }
+  }
+}
